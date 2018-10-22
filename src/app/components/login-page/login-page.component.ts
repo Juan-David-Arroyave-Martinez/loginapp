@@ -23,7 +23,7 @@ export class LoginPageComponent implements OnInit {
     .then( (res) =>{
       this.router.navigate(['/privado']);
     }).catch((err) =>{
-      console.log("Error al loguear" + err)
+      console.log("Error al loguear" + err);
     });
   }
 
