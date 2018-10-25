@@ -17,6 +17,7 @@ import {AngularFireAuthModule} from 'angularfire2/auth';
 import {environment} from '../environments/environment';
 import {AuthService } from './services/auth.service';
 import {AuthGuard} from './guards/auth.guard';
+import { HomeLoginComponent } from './components/home-login/home-login.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import {AuthGuard} from './guards/auth.guard';
     RegisterPageComponent,
     LoginPageComponent,
     PrivadoPageComponent,
-    NotFoundPageComponent
+    NotFoundPageComponent,
+    HomeLoginComponent
   ],
   imports: [
     BrowserModule,  
